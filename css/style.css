@@ -247,3 +247,17 @@ figcaption {
     padding: 8px 20px;
     border-radius: 10px;
 }
+
+.action-but button:hover {
+    background-color: red;
+}
+
+footer {
+    background-color: #1f2937;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
