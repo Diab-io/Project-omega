@@ -6,9 +6,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
-
+/* section, nav {
+    width: 100%;
+} */
 
 .nav-bar {
     display: flex;
@@ -130,6 +134,7 @@ body {
     flex-direction: column;
     padding: 30px;
     gap: 32px;
+    height: 300px;
 }
 
 .text {
@@ -170,4 +175,42 @@ body {
 .box .desc {
     width: 100%;
     padding: 10px 0;
+}
+
+.quote { 
+    width: 100%;
+    background-color: #e5e7eb;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* quote styling */
+.fig {
+    width: 50%;
+}
+
+blockquote {
+    margin: 0;
+}
+
+blockquote p {
+    padding: 15px;
+    /* background: #eee; */
+    font-style: italic;
+    color: #1f2937;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
+
+figcaption {
+    margin-left: 350px;
+    font-weight: bold;
 }
