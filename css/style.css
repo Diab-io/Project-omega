@@ -214,3 +214,36 @@ figcaption {
     margin-left: 350px;
     font-weight: bold;
 }
+
+.action {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-box {
+    width: 70%;
+    /* height: 40%; */
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    color: white;
+    border-radius: 8px;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.action-but button {
+    font-weight: bold;
+    background-color: #3882f6;
+    border: 2px solid white;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 10px;
+}
